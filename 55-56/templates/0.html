@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-{% for pur in purchase_product %}
+{% for pur in purchase_product [:1]%}
 <p> Названия товара:{{ pur.product_name }} Цена:{{ pur.price }}</p>
 
 {% endfor %}
