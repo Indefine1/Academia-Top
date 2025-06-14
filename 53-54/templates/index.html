@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Hello</h2>
+{% for catalog in product %}
+<p>Наименования товара:{{ catalog.product_name }} Цена:{{ catalog.price }}</p>
+
+{% endfor %}
+
+</body>
+</html>
